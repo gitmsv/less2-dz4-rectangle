@@ -13,9 +13,8 @@ import java.util.Scanner;
  */
 public class RectangleRuns {
 
-    int height;
-    int width;
-
+//    int height;
+//    int width;
     /**
      * @param args the command line arguments
      */
@@ -23,11 +22,15 @@ public class RectangleRuns {
 
         try (
                 // Создание сканера для ввода высоты и ширины прямоугольника
+                //                 int height;
+                //    int width;
                 Scanner sc = new Scanner(System.in)) {
+            int height;
+            int width;
             System.out.println("Введите высоту прямоугольника:");
-            int height = sc.nextInt();
+            height = sc.nextInt();
             System.out.println("Введите ширину прямоугольника:");
-            int width = sc.nextInt();
+            width = sc.nextInt();
 
             // вывод первой стороны (1-я строка) прямоугольника
             for (int j = 0; j < width; j += 1) {
