@@ -47,6 +47,5 @@ public class RectangleRuns {
             System.out.print("*");
         }
         System.out.println();
-        sc.close();
-    }
+        }
 }
