@@ -23,6 +23,7 @@ public class RectangleRuns {
         height = sc.nextInt();
         System.out.println("Введите ширину прямоугольника:");
         width = sc.nextInt();
+        sc.close();
 
         // вывод первой стороны (1-я строка) прямоугольника
         for (int j = 0; j < width; j += 1) {
